@@ -189,6 +189,9 @@
                                 <state key="normal" title="π">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="appendConstant:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vg-1n-lqw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZk-ld-tMl">
                                 <rect key="frame" x="472" y="468.5" width="104" height="123.5"/>

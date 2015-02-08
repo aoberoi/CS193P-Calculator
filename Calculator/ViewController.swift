@@ -31,6 +31,20 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func appendConstant(sender: UIButton) {
+        let constant = sender.currentTitle!
+        if (userIsInTheMiddleOfTypingANumber) {
+            enter()
+        }
+        
+        switch constant {
+        case "π":
+            displayValue = M_PI
+            enter()
+        default: break
+        }
+    }
+    
     @IBAction func operate(sender: UIButton) {
         let operation = sender.currentTitle!
         if (userIsInTheMiddleOfTypingANumber) {
