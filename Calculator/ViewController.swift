@@ -111,5 +111,13 @@ class ViewController: UIViewController {
             history.text = history.text! + " \(newItem)"
         }
     }
+    
+    @IBAction func clear() {
+        operandStack = [Double]()
+        display.text = "0"
+        history.text = "0"
+        userIsInTheMiddleOfTypingANumber = false
+        historyIsBlank = true
+    }
 }
 
