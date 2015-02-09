@@ -13,6 +13,7 @@
 		922733B41A8712EE005E31DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922733B31A8712EE005E31DE /* Images.xcassets */; };
 		922733B71A8712EE005E31DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922733B51A8712EE005E31DE /* LaunchScreen.xib */; };
 		922733C31A8712EE005E31DE /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922733C21A8712EE005E31DE /* CalculatorTests.swift */; };
+		92A851441A882293008D5766 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A851431A882293008D5766 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		922733C11A8712EE005E31DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922733C21A8712EE005E31DE /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		92A851421A881F07008D5766 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92A851431A882293008D5766 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				922733AE1A8712ED005E31DE /* ViewController.swift */,
+				92A851431A882293008D5766 /* CalculatorBrain.swift */,
 				922733B01A8712EE005E31DE /* Main.storyboard */,
 				922733AA1A8712ED005E31DE /* Supporting Files */,
 			);
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A851441A882293008D5766 /* CalculatorBrain.swift in Sources */,
 				922733AF1A8712ED005E31DE /* ViewController.swift in Sources */,
 				922733AD1A8712ED005E31DE /* AppDelegate.swift in Sources */,
 			);
